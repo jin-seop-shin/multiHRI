@@ -155,3 +155,23 @@ eval_cache/
 wandb/
 
 eval_cache.zip
+# Local virtual environments
+venvs/
+.venv/
+cuda-test/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# RunPod / experiment outputs
+wandb/
+runs/
+logs/
+checkpoints/
+results/
+*.pt
+*.pth
+*.ckpt
+*.zip
