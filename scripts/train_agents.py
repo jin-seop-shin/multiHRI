@@ -308,6 +308,6 @@ if __name__ == '__main__':
     elif args.algo_name == 'SPN_1ADV_XSPCKP':
         SPN_1ADV_XSPCKP(args=args)
 
-    elif args.algo_name == 'MEP':
-        MEP(args=args)
+    elif args.algo_name == 'MEP_POPULATION':
+        MEP_POPULATION(args=args)
 
