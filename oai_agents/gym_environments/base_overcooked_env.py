@@ -155,6 +155,13 @@ class OvercookedGymEnv(Env):
 
     def set_teammates(self, teammates):
         assert isinstance(teammates, list)
+        # After pickling through SubprocVecEnv, models land on CPU — restore device
+        for tm in teammates:
+            if hasattr(tm, 'policy') and hasattr(tm, 'args'):
+                actual = next(iter(tm.policy.parameters()), None)
+                if actual is not None and str(actual.device) != str(self.args.device):
+                    tm.policy.to(self.args.device)
+                    tm.args.device = self.args.device
         self.teammates = teammates
         self.reset_info['start_position'] = {}
 
@@ -214,14 +221,14 @@ class OvercookedGymEnv(Env):
             for t_idx in self.t_idxes:
                 if c_idx == t_idx:
                     teammate = self.get_teammate_from_idx(c_idx)
-                    if 'subtask_mask' in teammate.policy.observation_space.keys():
+                    if 'subtask_mask' in teammate.policy.observation_space.spaces:
                         obs['subtask_mask'] = self.action_masks(c_idx)
                         break
 
         for t_idx in self.t_idxes:
             if c_idx == t_idx:
                 teammate = self.get_teammate_from_idx(t_idx)
-                obs = {k: v for k, v in obs.items() if k in teammate.policy.observation_space.keys()}
+                obs = {k: v for k, v in obs.items() if k in teammate.policy.observation_space.spaces}
                 break
 
         return obs
@@ -231,9 +238,28 @@ class OvercookedGymEnv(Env):
         id = self.t_idxes.index(idx)
         return self.teammates[id]
 
+    def collect_teammate_obs(self):
+        """Collect {t_idx: (obs_dict, teammate)} for batched prediction outside step()."""
+        result = {}
+        from oai_agents.agents.agent_utils import CustomAgent
+        for t_idx in self.t_idxes:
+            teammate = self.get_teammate_from_idx(t_idx)
+            if type(teammate) != CustomAgent:
+                result[t_idx] = (self.get_obs(c_idx=t_idx, enc_fn=teammate.encoding_fn), teammate)
+        return result
+
+    def seed(self, seed=None):
+        random.seed(seed)
+        np.random.seed(seed)
+        return [seed]
+
     def step(self, action):
         if len(self.teammates) == 0 and self.args.num_players > 1:
             raise ValueError('set_teammates must be set called before starting game.')
+
+        # Consume pre-batched teammate actions if provided by BatchedTeammatesDummyVecEnv
+        precomputed_teammate_actions = getattr(self, '_precomputed_tm_actions', None)
+        self._precomputed_tm_actions = None
 
         joint_action = [None for _ in range(self.mdp.num_players)]
         joint_action[self.p_idx] = action
@@ -241,11 +267,14 @@ class OvercookedGymEnv(Env):
         with th.no_grad():
             for t_idx in self.t_idxes:
                 teammate = self.get_teammate_from_idx(t_idx)
-                tm_obs = self.get_obs(c_idx=t_idx, enc_fn=teammate.encoding_fn)
-                if type(teammate) == CustomAgent:
+                if precomputed_teammate_actions is not None and t_idx in precomputed_teammate_actions:
+                    joint_action[t_idx] = precomputed_teammate_actions[t_idx]
+                elif type(teammate) == CustomAgent:
+                    tm_obs = self.get_obs(c_idx=t_idx, enc_fn=teammate.encoding_fn)
                     info = {'layout_name': self.layout_name, 'u_env_idx': self.unique_env_idx}
                     joint_action[t_idx] = teammate.predict(obs=tm_obs, deterministic=self.deterministic, info=info)[0]
                 else:
+                    tm_obs = self.get_obs(c_idx=t_idx, enc_fn=teammate.encoding_fn)
                     joint_action[t_idx] = teammate.predict(obs=tm_obs, deterministic=self.deterministic)[0]
 
         joint_action = [Action.INDEX_TO_ACTION[(a.squeeze() if type(a) != int else a)] for a in joint_action]

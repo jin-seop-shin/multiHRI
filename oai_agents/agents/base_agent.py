@@ -82,10 +82,10 @@ class OAIAgent(nn.Module, ABC):
             else:
                 obs['visual_obs'], _ = self.stackedobs.update(obs['visual_obs'], np.array([done]), [{}])
             obs['visual_obs'] = obs['visual_obs'].squeeze()
-        if 'subtask_mask' in self.policy.observation_space.keys():
+        if 'subtask_mask' in self.policy.observation_space.spaces:
             obs['subtask_mask'] = get_doable_subtasks(self.state, self.prev_subtask, self.layout_name, self.terrain, p_idx, self.valid_counters, USEABLE_COUNTERS.get(self.layout_name, 2)).astype(bool)
 
-        obs = {k: v for k, v in obs.items() if k in self.policy.observation_space.keys()}
+        obs = {k: v for k, v in obs.items() if k in self.policy.observation_space.spaces}
         return obs
 
     def set_encoding_params(self, p_idx, horizon, env=None, mdp=None, is_haha=False, output_message=False, tune_subtasks=False):
@@ -192,7 +192,7 @@ class SB3Wrapper(OAIAgent):
     def predict(self, obs, state=None, episode_start=None, deterministic=False):
         # Based on https://github.com/DLR-RM/stable-baselines3/blob/master/stable_baselines3/common/policies.py#L305
         # Updated to include action masking
-        obs = {k: v for k, v in obs.items() if k in self.policy.observation_space.keys()}
+        obs = {k: v for k, v in obs.items() if k in self.policy.observation_space.spaces}
         self.policy.set_training_mode(False)
         obs, vectorized_env = self.policy.obs_to_tensor(obs)
         with th.no_grad():

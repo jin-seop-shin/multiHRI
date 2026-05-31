@@ -10,13 +10,14 @@ from oai_agents.common.checked_model_name_handler import CheckedModelNameHandler
 import numpy as np
 from stable_baselines3 import PPO, DQN
 from stable_baselines3.common.env_util import make_vec_env
-from stable_baselines3.common.vec_env import DummyVecEnv
+from stable_baselines3.common.vec_env import DummyVecEnv, SubprocVecEnv
+from oai_agents.common.batched_vecenv import BatchedTeammatesDummyVecEnv
 from sb3_contrib import RecurrentPPO
 import wandb
 import os
 from typing import Literal
 
-VEC_ENV_CLS = DummyVecEnv #
+VEC_ENV_CLS = BatchedTeammatesDummyVecEnv
 
 class RLAgentTrainer(OAITrainer):
     ''' Train an RL agent to play with a teammates_collection of agents.'''

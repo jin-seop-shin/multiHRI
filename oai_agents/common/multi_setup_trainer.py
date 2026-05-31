@@ -117,6 +117,7 @@ class MultiSetupSPTrainer(MultiSetupTrainer):
             curriculum=self.curriculum
         )
 
+        total_ts = self.args.n_x_sp_total_training_timesteps or self.args.pop_total_training_timesteps
         return self.get_reinforcement_agent(
             name=name,
             teammates_collection={},
@@ -124,8 +125,8 @@ class MultiSetupSPTrainer(MultiSetupTrainer):
             h_dim=h_dim,
             seed=seed,
             learner_type=self.args.primary_learner_type,
-            checkpoint_rate=self.args.pop_total_training_timesteps // self.args.num_of_ckpoints,
-            total_train_timesteps=self.args.pop_total_training_timesteps,
+            checkpoint_rate=total_ts // self.args.num_of_ckpoints,
+            total_train_timesteps=total_ts,
         )
 
 def generate_hdim_and_seed(for_evaluation: bool, total_ego_agents: int):
