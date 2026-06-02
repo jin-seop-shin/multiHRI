@@ -11102,3 +11102,73 @@ Saved on timestep_count: 45120000 and step_count:235 for tag: ck_30_rew_102.6666
 |    time_elapsed    | 125      |
 |    total_timesteps | 45312000 |
 ---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 114      |
+| time/              |          |
+|    fps             | 1513     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 45504000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 165      |
+| time/              |          |
+|    fps             | 1528     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 45696000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 116      |
+| time/              |          |
+|    fps             | 1503     |
+|    iterations      | 1        |
+|    time_elapsed    | 127      |
+|    total_timesteps | 45888000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 119      |
+| time/              |          |
+|    fps             | 1527     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 46080000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 80.5     |
+| time/              |          |
+|    fps             | 1499     |
+|    iterations      | 1        |
+|    time_elapsed    | 128      |
+|    total_timesteps | 46272000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 112      |
+| time/              |          |
+|    fps             | 1511     |
+|    iterations      | 1        |
+|    time_elapsed    | 127      |
+|    total_timesteps | 46464000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 165      |
+| time/              |          |
+|    fps             | 1527     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 46656000 |
+---------------------------------
