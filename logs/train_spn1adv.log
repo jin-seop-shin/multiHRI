@@ -11172,3 +11172,742 @@ Saved on timestep_count: 45120000 and step_count:235 for tag: ck_30_rew_102.6666
 |    time_elapsed    | 125      |
 |    total_timesteps | 46656000 |
 ---------------------------------
+Saved on timestep_count: 46656000 and step_count:243 for tag: ck_31_rew_109.33333333333333
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 130      |
+| time/              |          |
+|    fps             | 1518     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 46848000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 175      |
+| time/              |          |
+|    fps             | 1500     |
+|    iterations      | 1        |
+|    time_elapsed    | 127      |
+|    total_timesteps | 47040000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 167      |
+| time/              |          |
+|    fps             | 1520     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 47232000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 72.4     |
+| time/              |          |
+|    fps             | 1500     |
+|    iterations      | 1        |
+|    time_elapsed    | 127      |
+|    total_timesteps | 47424000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 98.8     |
+| time/              |          |
+|    fps             | 1542     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 47616000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 76.9     |
+| time/              |          |
+|    fps             | 1499     |
+|    iterations      | 1        |
+|    time_elapsed    | 128      |
+|    total_timesteps | 47808000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 174      |
+| time/              |          |
+|    fps             | 1531     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 48000000 |
+---------------------------------
+Saved on timestep_count: 48000000 and step_count:250 for tag: ck_32_rew_106.22222222222223
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 127      |
+| time/              |          |
+|    fps             | 1519     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 48192000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 91.1     |
+| time/              |          |
+|    fps             | 1512     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 48384000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 123      |
+| time/              |          |
+|    fps             | 1531     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 48576000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 88.8     |
+| time/              |          |
+|    fps             | 1517     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 48768000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 98.2     |
+| time/              |          |
+|    fps             | 1523     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 48960000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 162      |
+| time/              |          |
+|    fps             | 1537     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 49152000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 176      |
+| time/              |          |
+|    fps             | 1539     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 49344000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 124      |
+| time/              |          |
+|    fps             | 1521     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 49536000 |
+---------------------------------
+Saved on timestep_count: 49536000 and step_count:258 for tag: ck_33_rew_112.88888888888889
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 166      |
+| time/              |          |
+|    fps             | 1522     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 49728000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 79.2     |
+| time/              |          |
+|    fps             | 1527     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 49920000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 68       |
+| time/              |          |
+|    fps             | 1490     |
+|    iterations      | 1        |
+|    time_elapsed    | 128      |
+|    total_timesteps | 50112000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 156      |
+| time/              |          |
+|    fps             | 1508     |
+|    iterations      | 1        |
+|    time_elapsed    | 127      |
+|    total_timesteps | 50304000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 174      |
+| time/              |          |
+|    fps             | 1539     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 50496000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 124      |
+| time/              |          |
+|    fps             | 1539     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 50688000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 88.1     |
+| time/              |          |
+|    fps             | 1540     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 50880000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 59.1     |
+| time/              |          |
+|    fps             | 1553     |
+|    iterations      | 1        |
+|    time_elapsed    | 123      |
+|    total_timesteps | 51072000 |
+---------------------------------
+Saved on timestep_count: 51072000 and step_count:266 for tag: ck_34_rew_120.0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 110      |
+| time/              |          |
+|    fps             | 1524     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 51264000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 115      |
+| time/              |          |
+|    fps             | 1531     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 51456000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 114      |
+| time/              |          |
+|    fps             | 1526     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 51648000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 101      |
+| time/              |          |
+|    fps             | 1519     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 51840000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 120      |
+| time/              |          |
+|    fps             | 1524     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 52032000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 100      |
+| time/              |          |
+|    fps             | 1532     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 52224000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 107      |
+| time/              |          |
+|    fps             | 1529     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 52416000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 116      |
+| time/              |          |
+|    fps             | 1513     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 52608000 |
+---------------------------------
+Saved on timestep_count: 52608000 and step_count:274 for tag: ck_35_rew_124.0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 155      |
+| time/              |          |
+|    fps             | 1522     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 52800000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 114      |
+| time/              |          |
+|    fps             | 1511     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 52992000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 163      |
+| time/              |          |
+|    fps             | 1526     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 53184000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 175      |
+| time/              |          |
+|    fps             | 1511     |
+|    iterations      | 1        |
+|    time_elapsed    | 127      |
+|    total_timesteps | 53376000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 129      |
+| time/              |          |
+|    fps             | 1507     |
+|    iterations      | 1        |
+|    time_elapsed    | 127      |
+|    total_timesteps | 53568000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 94       |
+| time/              |          |
+|    fps             | 1532     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 53760000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 118      |
+| time/              |          |
+|    fps             | 1513     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 53952000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 165      |
+| time/              |          |
+|    fps             | 1524     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 54144000 |
+---------------------------------
+Saved on timestep_count: 54144000 and step_count:282 for tag: ck_36_rew_105.77777777777777
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 102      |
+| time/              |          |
+|    fps             | 1502     |
+|    iterations      | 1        |
+|    time_elapsed    | 127      |
+|    total_timesteps | 54336000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 114      |
+| time/              |          |
+|    fps             | 1521     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 54528000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 53.6     |
+| time/              |          |
+|    fps             | 1538     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 54720000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 154      |
+| time/              |          |
+|    fps             | 1530     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 54912000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 168      |
+| time/              |          |
+|    fps             | 1523     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 55104000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 110      |
+| time/              |          |
+|    fps             | 1541     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 55296000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 162      |
+| time/              |          |
+|    fps             | 1542     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 55488000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 129      |
+| time/              |          |
+|    fps             | 1534     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 55680000 |
+---------------------------------
+Saved on timestep_count: 55680000 and step_count:290 for tag: ck_37_rew_107.55555555555556
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 44.7     |
+| time/              |          |
+|    fps             | 1541     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 55872000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 120      |
+| time/              |          |
+|    fps             | 1535     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 56064000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 168      |
+| time/              |          |
+|    fps             | 1541     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 56256000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 126      |
+| time/              |          |
+|    fps             | 1526     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 56448000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 76.5     |
+| time/              |          |
+|    fps             | 1556     |
+|    iterations      | 1        |
+|    time_elapsed    | 123      |
+|    total_timesteps | 56640000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 94.8     |
+| time/              |          |
+|    fps             | 1532     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 56832000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 160      |
+| time/              |          |
+|    fps             | 1525     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 57024000 |
+---------------------------------
+Saved on timestep_count: 57024000 and step_count:297 for tag: ck_38_rew_124.44444444444444
+Saved on timestep_count: 57024000 and step_count:297 for tag: best
+New best evaluation score of 124.44444444444444 reached, model saved to /workspace/multiHRI/agent_models/Classic/3/PWADV-N-1-SP_s1010_h256_tr[SP_SPADV]_ran_originaler_attack2/best
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 175      |
+| time/              |          |
+|    fps             | 1537     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 57216000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 125      |
+| time/              |          |
+|    fps             | 1517     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 57408000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 130      |
+| time/              |          |
+|    fps             | 1521     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 57600000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 119      |
+| time/              |          |
+|    fps             | 1525     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 57792000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 166      |
+| time/              |          |
+|    fps             | 1535     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 57984000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 135      |
+| time/              |          |
+|    fps             | 1519     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 58176000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 167      |
+| time/              |          |
+|    fps             | 1544     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 58368000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 175      |
+| time/              |          |
+|    fps             | 1536     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 58560000 |
+---------------------------------
+Saved on timestep_count: 58560000 and step_count:305 for tag: ck_39_rew_121.33333333333333
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 172      |
+| time/              |          |
+|    fps             | 1534     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 58752000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 119      |
+| time/              |          |
+|    fps             | 1518     |
+|    iterations      | 1        |
+|    time_elapsed    | 126      |
+|    total_timesteps | 58944000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 174      |
+| time/              |          |
+|    fps             | 1537     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 59136000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 174      |
+| time/              |          |
+|    fps             | 1532     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 59328000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 118      |
+| time/              |          |
+|    fps             | 1544     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 59520000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 117      |
+| time/              |          |
+|    fps             | 1532     |
+|    iterations      | 1        |
+|    time_elapsed    | 125      |
+|    total_timesteps | 59712000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 116      |
+| time/              |          |
+|    fps             | 1537     |
+|    iterations      | 1        |
+|    time_elapsed    | 124      |
+|    total_timesteps | 59904000 |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | 130      |
+| time/              |          |
+|    fps             | 1508     |
+|    iterations      | 1        |
+|    time_elapsed    | 127      |
+|    total_timesteps | 60096000 |
+---------------------------------
+/usr/local/lib/python3.11/dist-packages/stable_baselines3/common/save_util.py:437: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  th_object = th.load(file_content, map_location=device)
+wandb: updating run metadata
+wandb: uploading output.log; uploading wandb-summary.json
+wandb: uploading output.log
+wandb: 
+wandb: Run history:
+wandb:                                        eval_mean_reward ▁▂▄▄▅▅▅▆▇▇▆▆▇██▆█▇▇▆█▇▆▇██▇▇▆▇▇▇▇▇▇█▇▇▇█
+wandb:                eval_mean_reward_3_chefs_counter_circuit ▁▂▂▃▃▄▅▅▅▅▅▇▇▆▆██▆▆▇▆▇█▇▆█▆▇█▇▇▇▇▇▇█▇▇██
+wandb: eval_mean_reward_3_chefs_counter_circuit_teamtype_SPADV ▁▂▃▁▃▃▄▅▂▂▄▇▄▄▄█▇▅▄▄▄▇▆▄▅▅▇▇▇▇▇▇▇▇█▇▆▇█▇
+wandb:   eval_mean_reward_3_chefs_counter_circuit_teamtype_SPH ▁▁▂▂▃▅▅▆▇▇█▇▇▇▇▆▆▆▇▆▇▇▆▇▇▇▇▆▆▆▆▇▆▆▇▇▇▆▇▇
+wandb:   eval_mean_reward_3_chefs_counter_circuit_teamtype_SPL ▁▂▂▃▃▅▅▅▅▆▆▇▇▇▇████▇▇▇▇▆▇▆▇▇▇▇▇▆▆▇▆▇▇▆▇▇
+wandb:                                                timestep ▁▁▁▁▁▂▂▂▂▂▂▂▂▂▂▃▃▃▃▄▄▄▄▄▄▅▅▆▆▆▆▇▇▇▇▇▇███
+wandb: 
+wandb: Run summary:
+wandb:                                        eval_mean_reward 116.88889
+wandb:                eval_mean_reward_3_chefs_counter_circuit 116.88889
+wandb: eval_mean_reward_3_chefs_counter_circuit_teamtype_SPADV 118.66667
+wandb:   eval_mean_reward_3_chefs_counter_circuit_teamtype_SPH 113.33333
+wandb:   eval_mean_reward_3_chefs_counter_circuit_teamtype_SPL 118.66667
+wandb:                                                timestep 60096000
+wandb: 
+wandb: 🚀 View run Classic/3/PWADV-N-1-SP_s1010_h256_tr[SP_SPADV]_ran_originaler_attack2 at: https://wandb.ai/sjs020523-korea-university/overcooked_ai/runs/3o9hgnb9
+wandb: ⭐️ View project at: https://wandb.ai/sjs020523-korea-university/overcooked_ai
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/wandb/run-20260601_191403-3o9hgnb9/logs
+Saved on timestep_count: 60096000 and step_count:313 for tag: ck_40_rew_116.88888888888889
+Saved on timestep_count: 60096000 and step_count:313 for tag: last

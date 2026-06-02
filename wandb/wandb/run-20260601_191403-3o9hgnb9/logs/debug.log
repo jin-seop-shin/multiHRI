@@ -14,3 +14,8 @@ config: {'_wandb': {}}
 2026-06-01 19:14:04,893 INFO    MainThread:4510 [wandb_run.py:_redirect():2428] Wrapping output streams.
 2026-06-01 19:14:04,904 INFO    MainThread:4510 [wandb_run.py:_redirect():2451] Redirects installed.
 2026-06-01 19:14:04,907 INFO    MainThread:4510 [wandb_init.py:init():1095] run started, returning control to user process
+2026-06-02 08:11:54,182 INFO    MainThread:4510 [wandb_run.py:_finish():2271] finishing run sjs020523-korea-university/overcooked_ai/3o9hgnb9
+2026-06-02 08:11:54,184 INFO    MainThread:4510 [wandb_run.py:_atexit_cleanup():2476] got exitcode: 0
+2026-06-02 08:11:54,188 INFO    MainThread:4510 [wandb_run.py:_restore():2458] restore
+2026-06-02 08:11:54,190 INFO    MainThread:4510 [wandb_run.py:_restore():2464] restore done
+2026-06-02 08:11:56,047 INFO    MainThread:4510 [wandb_run.py:_footer_sync_info():3877] logging synced files
