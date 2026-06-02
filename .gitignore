@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large model files
+agent_models/
+
+# wandb run directories (large)
+wandb/wandb/run-*/
+
+# Jupyter
+.ipynb_checkpoints/
